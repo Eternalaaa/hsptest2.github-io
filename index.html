@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+	<style type="text/css">
+	body{
+		color: #FF0000;
+		background-image: url(https://pic.baike.soso.com/ugc/baikepic2/0/ori-20211222172213-945917512_jpg_1362_1703_532016.jpg/800);
+		background-position: center;
+		background-position: top;
+		background-attachment: initial;
+		background-repeat: no-repeat;}
+	h1,
+	h2,
+	h3,
+	h4{
+		text-align: center;
+	}
+	#LIST{
+	        float: left;
+	        text-align: center;
+	        list-style-type: none;
+	      }
+    #aList{
+	        float: left;
+	        width: 120px;
+	        text-decoration: none;
+	        color: white;
+	        background-color: purple;
+	        padding: 3px 10px;
+	        border-right: 1px solid white;
+	      }
+	a:hover {
+	        background-color: yellow;
+	a{
+		color: chartreuse;
+	}
+	a:link {
+	    color: blue;
+	    text-decoration: none;
+	  }
+	a:hover {
+	    color: black;
+	    background-color: #dddddd;
+	    text-decoration: underline;
+	  }
+	a:active {
+	    color: red;
+	    background-color: #aaaaaa;
+	    text-decoration: line-through;
+	  }
+	a:visited {
+	    color: green;
+	    text-decoration: none;
+	  }
+	li{
+			font-size: 20px;
+			font-family: 隶书;
+			line-height: 28px;
+		}
+	.beauFont{
+			font: italic 16px 华文彩云;
+			text-indent: 50px;
+		}
+	#title{
+		direction: left;
+		text-decoration: underline;
+		text-transform: capitalize;
+		white-space: nowrap;
+		color: #0000FF;
+		text-align: center;
+	}
+	}
+	</style>
+	<!--标题的设置-->
+	<head>
+		<title>第一个html文件</title>
+		<!--其中输入标题-->
+		<meta charset="utf-8" />
+	</head>
+	<body background="https://pic.baike.soso.com/ugc/baikepic2/0/ori-20201013141945-458432585_jpg_1280_1920_448624.jpg/800">
+	<!--
+	<body bgcolor="aquamarine" onload="alert('加载后出来的弹出')" onclick="alert('点击后的效果')" style="height: 500px;">
+	-->
+	<!--print数据的-->
+	&nbsp&nbsp&nbsp&nbsp&nbsp
+	我爱杨洋 我喜欢你
+	<br />
+	<!--br is 换行  -->
+	<hr color="aqua" style="height:10px;"  /><!-- 水平线 -->
+	<!--横线  属性可以设置-->
+	你知道吗？？
+	<hr />
+	<!--span 是文本  默认不带换行  p是默认带换行的  span可以配合br使用-->
+	<div>
+		<span id="title">
+			第二次用于测试CSS文本知识；
+		</span>
+	</div>
+	<div>
+		<span>
+			我是一个字符串小垃圾
+	</div>
+	</span>
+	<!--html 有自我修复功能-->
+	<hr />
+	<font color="#DC143C" face="微软雅黑" size="7">我开始学前端啦</font>
+	<hr />
+	<font color="antiquewhite"face="arial black" size="8">杨洋大傻冒</font>
+	<br />
+	<!--字符实体 -->
+	<!-- 代码中用的并且需要输出的 例如 span-->
+	&ltspan&gt我是一个span标签 也是一个杨洋的小垃圾&lt/span&gt
+	<br />
+	我喜欢你杨洋@ &nbsp&nbsp&nbsp&nbsp&nbsp 永远喜欢你
+	<!--标题h1-h6-->
+	<h1 align="center">我喜欢杨洋</h1>
+	<h2 align="left">最喜欢的是你呀</h2>
+	<h3 align="center">古娜拉黑暗之神</h3>
+	<h4 align="bottom">痛经离开</h4>
+	<h5>痛经痛经快离开</h5>
+	<h6>什么？你不想走</h6>
+	<!--超链接之我想跳转百度-->
+	<br />
+	<a href="http://www.mayikt.com/course/video/6721"target="_blank">我想和杨洋结婚 想和她在一起</a>
+	<br />
+	<!--我想发邮件给谁--->
+	<a href="mailto:2197294306@qq.com">我想要你，杨洋不许凶我</a>
+	<br />
+	<!--我想跳转本地的html目录-->
+	<a href="new_file.html">杨洋 你可要爱我噢 我也要爱你</a>
+	<a></a>
+	<br />
+	<!--有序无序标签-->
+	<!--无序标签-->
+	<ul>
+		<li>我是菜鸟</li>
+		<li>我是杨洋的小宝贝</li>
+		<li>杨洋最爱我了</li>
+	</ul>
+	<ul type="none">
+		<li class="beauFont">我是菜鸟</li>
+		<li class="beauFont">我是杨洋的小宝贝</li>
+		<li class="beauFont">杨洋最爱我了</li>
+	</ul>
+	<!--有序标签-->
+	<ol type="I">
+		<li>杨洋最美</li>
+		<li>杨洋最棒</li>
+		<li>杨洋最美</li>
+		<li>杨洋最美</li>
+		<li>杨洋最棒</li>
+	</ol>
+	<head>
+	  <style type="text/css">
+	    strong {
+	      font-style: italic;
+	    }
+	    .left {
+	      color: red;
+	    }
+		.center{
+			color:blue;
+		}
+	  </style>
+	</head>
+	<body>
+	  <h3>图书分类</h3>
+	  <strong>无序列表外的strong元素</strong>
+	  <ul>
+	    <li><strong>小说</strong></li>
+	    <li><strong>文艺</strong></li>
+	    <li class=" beauFont"><strong>励志/成功</strong></li>
+	    <li class="left"><strong>童书</strong></li>
+	    <li class="center">生活</li>
+	    …
+	  </ul>
+	</body>
+
+	<!--image标签   前两个都是在同一级目录下  最后一个可以使用别人网页的图片-->
+	<img / src="./img/01.jpg" height="100" border="3" alt="资源无法显示">
+	<br />
+	<img / src="" height="100" border="3" alt="资源无法显示">
+	<br />0
+	<img src="img/02.jpg" height="100" border="3">
+	<br />
+	<img src="https://s.cn.bing.net/th?id=ODL.a55c1e9bd27470f19bcc1e7e83322fd2&w=197&h=110&c=7&rs=1&qlt=80&o=6&dpr=1.62&pid=RichNav"
+		height="100" border="3" />
+	<br />
+	<!--make a table制订一个表格效果-->
+	<!--表格也可以做属性-->
+	<table bordercolor="#0000FF" border="1" height="200" width="400" cellpadding="0" cellspacing="0" bgcolor="aqua">
+	    <!--去除表格间距让表格变得更加好看就要使用-->
+	    <tr align="center">
+	        <th>(1,1)</th>
+	        <th>(1,2)</th>
+	        <th>(1,3)</th>
+	    </tr>
+	    <tr align="center" bgcolor="#AAAAAA" color>
+	        <td>(2,1)</td>
+	        <td>(2,2)</td>
+	        <td>(2,3)</td>
+	    </tr>
+	    <tr align="center">
+	        <td>(3,1)</td>
+	        <td>(3,2)</td>
+	        <td>(3,3)</td>
+	    </tr>
+	    <tr align="center">
+	        <td>(4,1)</td>
+	        <td>(4,2)</td>
+	        <td>(4,3)</td>
+	    </tr>
+	</table>
+	<!--iframe 框架  做内嵌页面-->
+	<!--太好玩了啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊-->
+	<iframe src="new_file.html"></iframe>
+	<br />
+	<iframe src="https://www.w3cschool.cn/codecamp/add-alt-text-to-an-image-for-accessibility.html" width="800"
+		height="800" name="hello"></iframe>
+	<ul>
+		<li">
+			<a href="https://www.w3cschool.cn/html/html-images.html" target="hello">w3cschool</a>
+		</li>
+		<li>
+			<a href="https://cn.bing.com/" target="hello">bing</a>
+		</li>
+		<li>
+			<a href="https://blog.csdn.net/qq_41932198/article/details/106612422" target="hello">遍历</a>
+		</li>
+	</ul>
+	<!--跨行rowspan跨列colspan属性-->
+	<table border="1"width="500"height="500" cellpadding="0"cellspacing="0">
+		<tr>
+			<td rowspan="2">111</td>
+			<td>222</td>
+			<td>333</td>
+		</tr>
+		<tr>
+			<td>111</td>
+			<td>222</td>
+		</tr>
+		<tr>
+			<td colspan="2">111</td>
+			<td>222</td>
+		</tr>
+	</table>
+	<!--表单定制
+	form:-------------------表单内容最多的了；
+	input:
+		type:
+			text;文本
+			radio;按钮 包含checked 默认选项
+			name;实现多选一而不是多选多  没有限制；
+			number;输入数字 其他不能输入；
+			password;输入密码；
+			checkbox;多选按钮；
+	select:
+		option;selected可以做默认选择  和checked一样使用
+	-->
+
+	<form>
+		学生姓名：<input type="text" value="请输入姓名"maxlength="4"/><br />
+		学生性别：<input type="radio"name="sex"checked="checked" />男性，<input type="radio"name="sex" />女性，<input type="radio" name="sex"  />变态<br />
+		学生年龄：<input type="number"value="18"maxlength="2"/><br/>
+		学生账号：<input type="text"value="请输入账号"maxlength="10" /><br />
+		学生密码：<input type="password"maxlength="10" /><br />
+		学生爱好：<input type="checkbox" />编程<input type="checkbox"/>学习<input type="checkbox"checked="checked"/>杨洋<br/>
+		来自哪里：
+		<select>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option selected="selected">4</option>
+			<option>5</option>
+			<option>6</option>
+		</select><br />
+		个人理想：<textarea rows="20"cols="20">此时此刻你想说</textarea><br /><br />
+	<!---提交按钮-->
+	<input type="submit"value="提交登记" />
+	<!--上传图片-->
+	<input type="file" /><br /><br />
+	<!--重置信息-->
+	<input type="reset"value="填错了信息，我想重置一下"/>
+	<!--隐藏值-->
+	<input type="hidden"name="游戏密码" value="969426464"/>
+	</form>
+	
+	<hr />
+	<!--优化-    use table-->
+	
+	<form>
+		<table>
+			<tr>
+				<td>学生姓名：<input type="text" value="请输入姓名"maxlength="4"/><br /></td>
+			</tr>
+			<tr>
+				<td>学生性别：<input type="radio"name="sex"checked="checked" />男性，<input type="radio"name="sex" />女性，<input type="radio" name="sex"  />变态<br /></td>
+			</tr>
+		</table>
+	</form>
+	</body>
+</html>
